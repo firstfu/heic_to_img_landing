@@ -1,24 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HeicPro - HEIC to Image Converter Landing Page
 
-## Getting Started
+A modern, high-converting landing page for HeicPro, a HEIC to PNG/JPG conversion tool designed specifically for iPhone users. This project showcases advanced web design techniques with real-time counters, animated elements, and conversion-focused content.
 
-First, run the development server:
+## 🚀 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript 5
+- **Styling**: Tailwind CSS v4 with PostCSS
+- **UI Framework**: React 19
+- **Build Tool**: Turbopack (for development)
+- **Linting**: ESLint with Next.js rules
+
+## ✨ Features
+
+- 📱 **Responsive Design**: Mobile-first approach with smooth animations
+- ⚡ **Real-time Counters**: Dynamic user and photo conversion counters
+- ⏰ **Countdown Timer**: Interactive countdown for promotional content
+- 🎨 **Modern UI/UX**: Gradient backgrounds, glass morphism effects, and micro-animations
+- 🔄 **Interactive Elements**: Expandable FAQ section and hover effects
+- 📊 **Social Proof**: Customer testimonials and comparison tables
+- 🌟 **Performance**: Optimized with Next.js 15 and Turbopack
+- 🎯 **Conversion-focused**: Landing page optimized for user conversion
+
+## 🛠️ Installation & Setup
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm, yarn, pnpm, or bun package manager
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd heic_to_img_landing
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   # or
+   bun install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
+
+4. **Open in browser**
+   
+   Navigate to [http://localhost:3000](http://localhost:3000) to view the landing page.
+
+The page auto-updates as you edit files. Start by modifying `app/page.tsx` to see changes in real-time.
+
+## 📜 Development Scripts
+
+| Script | Description |
+|--------|-------------|
+| `npm run dev` | Start development server with Turbopack (fast refresh) |
+| `npm run build` | Build production version |
+| `npm start` | Start production server |
+| `npm run lint` | Run ESLint to check code quality |
+
+## 📁 Project Structure
+
+```
+heic_to_img_landing/
+├── app/                    # Next.js App Router
+│   ├── page.tsx           # Main landing page component
+│   ├── layout.tsx         # Root layout
+│   └── globals.css        # Global styles
+├── public/                # Static assets
+│   ├── next.svg          # Next.js logo
+│   └── vercel.svg        # Vercel logo
+├── tailwind.config.ts     # Tailwind CSS configuration
+├── postcss.config.mjs     # PostCSS configuration
+├── tsconfig.json         # TypeScript configuration
+├── eslint.config.mjs     # ESLint configuration
+├── package.json          # Dependencies and scripts
+├── CLAUDE.md            # Claude Code instructions
+└── README.md            # Project documentation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Key Components & Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Interactive Elements
+- **Real-time Counters**: Simulated user and photo conversion statistics that update dynamically
+- **Countdown Timer**: Promotional countdown timer with hours, minutes, and seconds
+- **Animated Savings Calculator**: Progressive number animation for cost savings display
+- **Expandable FAQ**: Interactive FAQ section with smooth expand/collapse animations
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Design System
+- **Responsive Design**: Mobile-first approach with breakpoints for all device sizes
+- **Modern Animations**: CSS animations with staggered delays and smooth transitions
+- **Color Palette**: Blue to purple gradients with accent colors for CTAs
+- **Typography**: System fonts optimized for readability and conversion
 
 ## Learn More
 
