@@ -108,17 +108,82 @@ heic_to_img_landing/
 - **Color Palette**: Blue to purple gradients with accent colors for CTAs
 - **Typography**: System fonts optimized for readability and conversion
 
-## Learn More
+## 🚀 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+### Deploy on Vercel (Recommended)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The easiest way to deploy this Next.js app is using the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme):
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Push your code to a Git repository (GitHub, GitLab, or Bitbucket)
+2. Import your repository on [Vercel](https://vercel.com/new)
+3. Vercel will detect Next.js and configure the build settings automatically
+4. Deploy with a single click!
 
-## Deploy on Vercel
+### Alternative Deployment Options
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Netlify**: Connect your Git repository for automatic deployments
+- **AWS Amplify**: Deploy with AWS infrastructure
+- **Railway**: Simple deployment with built-in database options
+- **Self-hosted**: Use `npm run build` and serve the `out/` directory
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For detailed deployment instructions, see the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying).
+
+## 🤝 Contributing
+
+We welcome contributions to improve the HeicPro landing page! Here's how you can help:
+
+### Development Guidelines
+
+1. **Code Style**: Follow the existing TypeScript and React patterns
+2. **Components**: Keep components focused and reusable
+3. **Styling**: Use Tailwind CSS utilities consistently
+4. **Performance**: Optimize for web vitals and loading speed
+
+### Making Changes
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature-name`
+3. Make your changes following the code style
+4. Run linting: `npm run lint`
+5. Test your changes thoroughly
+6. Commit with descriptive messages
+7. Push to your branch: `git push origin feature-name`
+8. Open a Pull Request
+
+### Code Standards
+
+- Use TypeScript for all new code
+- Follow React best practices and hooks patterns  
+- Maintain responsive design principles
+- Keep accessibility in mind (semantic HTML, ARIA labels)
+- Optimize images and assets for web performance
+
+## 📚 Learn More
+
+### Next.js Resources
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial
+- [Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+### Design & Development
+
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/)
+- [React Documentation](https://react.dev/)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Contact
+
+For questions, suggestions, or support:
+
+- **Project Issues**: [GitHub Issues](../../issues)
+- **Email**: support@heicpro.com
+- **Website**: [heicpro.com](https://heicpro.com)
+
+---
+
+**Built with ❤️ using Next.js 15, React 19, and Tailwind CSS v4**
